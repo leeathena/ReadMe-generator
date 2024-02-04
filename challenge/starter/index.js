@@ -45,8 +45,16 @@ const questions = [
     ]
 ;    
 
+const writeFileAsync = until.promisify(fs.writeFile);
+
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>{
+        if (err){
+            return console.error(`There is an error occurred while writing to ${answers.title}`, err);``
+        }
+        console.log (`${answers.title} was created sucessfully`)
+    });
 }
 
 // function to initialize program
