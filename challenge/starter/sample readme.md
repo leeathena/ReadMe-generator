@@ -7,25 +7,25 @@
 123
 
 
-  #Table of content:
+  # Table of content:
   [Installation](#installation)
   [Usage](#usage)
   [Contributing](#contributing)
   [License](#license)
   [Questions](#questions)
 
-  ##Installation:
+  ## Installation:
   tesing
 
-  ##Usage:
+  ## Usage:
   testing usage
 
-  ##Contributing:
+  ## Contributing:
   testing contribution
 
-  ##License:
+  ## License:
   MIT License
 
-  ##Questions:
+  ## Questions:
   For any queries please vist [GitHub](https://github.com/leetesting) or email me at [testing@gmail.com](mailto:testing@gmail.com).
 
