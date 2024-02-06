@@ -4,29 +4,29 @@ function generateMarkdown(data) {
   return `# ${data.title}
   **License** ${data.license}
   
-  ##Description:
+  ## Description:
   ${data.description}
 
-  #Table of content:
+  # Table of content:
   [Installation](#installation)
   [Usage](#usage)
   [Contributing](#contributing)
   [License](#license)
   [Questions](#questions)
 
-  ##Installation:
+  ## Installation:
   ${data.installation}
 
-  ##Usage:
+  ## Usage:
   ${data.usage}
 
-  ##Contributing:
+  ## Contributing:
   ${data.contributing}
 
-  ##License:
+  ## License:
   ${data.license}
 
-  ##Questions:
+  ## Questions:
   For any queries please vist [GitHub](https://github.com/${data.username}) or email me at [${data.email}](mailto:${data.email}).
 
 `
