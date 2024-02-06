@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ${data.license}
 
   ##Questions:
-  For any queries please vist [GitHub](https://github.com/${username}) or email me at [${email}](mailto:${email}).
+  For any queries please vist [GitHub](https://github.com/${data.username}) or email me at [${data.email}](mailto:${data.email}).
 
 `
 }
